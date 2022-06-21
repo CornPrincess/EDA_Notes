@@ -5,6 +5,7 @@
   * demo
 
 * EDA技术实用课程
+  * [chapter1](notes/EDA/chapter1.md)
   * [Reference](notes/EDA/reference.md)
 
 * Logic Synthesis
