@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>EDA_Notes</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.min.css"/>
+    <link rel="icon" href="https://blog-1300663127.cos.ap-shanghai.myqcloud.com/BackEnd_Notes/favicon.png" type="image/png">
+</head>
+
+<body>
+<div id="app">Please wait...</div>
+
+<script>
+    window.$docsify = {
+        name: 'EDA_Notes',
+        repo: 'https://github.com/CornPrincess/EDA_Notes',
+        maxLevel: 6,//最大支持渲染的标题层级
+        subMaxLevel: 4,
+        homepage: './notes/home.md',
+        coverpage: './notes/_coverpage.md',
+        coverpage: true,
+        loadSidebar: true,
+        auto2top: true,//切换页面后是否自动跳转到页面顶部
+        //全文搜索
+        search: {
+            maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+            paths: 'auto',
+            placeholder: '搜索',
+            noData: '找不到结果',
+            // 搜索标题的最大程级, 1 - 6
+            depth: 3,
+        },
+        ga: 'UA-XXXXX-Y',
+        themeColor: "#42b983", // this is the default 'vue' color
+        dark: {
+            background: "#1c2022",
+            toggleBtnBg: "#34495e",
+            textColor: "#b4b4b4"
+        },
+        light: {
+            background: "white",
+            toggleBtnBg: "var(--theme-color)",
+            textColor: "var(--theme-color)"
+        },
+        plugins: [
+            EditOnGithubPlugin.create('https://github.com/CornPrincess/EDA_Notes/blob/master/'),
+        ],
+    }
+</script>
+<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+<!-- docsify-edit-on-github -->
+<script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
+<!--Java代码高亮-->
+<script src="//unpkg.com/prismjs/components/prism-java.js"></script>
+<!-- Cpp代码高亮 -->
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cpp.min.js"></script>
+<!--全文搜索,直接用官方提供的无法生效-->
+<script src="https://cdn.bootcss.com/docsify/4.5.9/plugins/search.min.js"></script>
+<!-- 复制到剪贴板 -->
+<script src="//unpkg.com/docsify-copy-code"></script>
+<!-- 图片缩放 -->
+<script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
+<!-- 字数统计 -->
+<script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+<!--google search-->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
+<!--pagination-->
+<script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+<!-- emoji -->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+<!-- Dark Mode -->
+<script src="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/index.min.js"></script>
+</body>
+
+</html>
