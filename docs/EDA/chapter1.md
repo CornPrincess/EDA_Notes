@@ -16,3 +16,14 @@ EDA中的综合：将用行为和功能层次表达的电子系统转换微低�
 - 从算法表示转换寄存器传输级(Register Transport Level, RTL)，即从行为域到结构域的综合，及行为综合
 - RTL级表示转换到逻辑门(包括触发器)的表示，即逻辑综合
 - 从逻辑门表示转换到版图表示(ASIC设计)，或转换到 FPGA 的配置网表文件，可称为版图综合或结构综合。有了版图信息就可以把芯片生产出来了。有了对应的配置文件，就可以使对应的FPGA变成具有专门功能的电路器件
+
+## IP
+- 软IP Soft IP：RTL HDL 描述，灵活更改
+- 固IP Firm IP：门级描述，有限更改
+- 硬IP Hard IP：版图形式，固定工艺难以更改
+
+也可以使用下面的分类方法
+- 处理器核： CPU/FPU/GPU/DSP/MCU/NPU
+- 硬件加速模块：图像处理/视频编解码/AI加速音频CODEC
+- 高速接口：USB/PCIe/HDMI/SerDes
+- 外设：GPIO/SPI/UART/Timer/I2C/PWM
