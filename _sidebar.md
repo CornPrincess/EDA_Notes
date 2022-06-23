@@ -12,6 +12,7 @@
   * [preface](./docs/Logic_Synthesis/preface.md)
   * [chapter1](./docs/Logic_Synthesis/chapter1.md)
   * [chapter2](./docs/Logic_Synthesis/chapter2.md)
+  * [chapter3](./docs/Logic_Synthesis/chapter3.md)
   * [Reference](./docs/Logic_Synthesis/reference.md)
 
 * VLSI CAD

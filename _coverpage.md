@@ -7,6 +7,3 @@
 
 [GitHub](https://github.com/CornPrincess/EDA_Notes)
 [Getting Started](#EDA_Notes)
-
-
-
