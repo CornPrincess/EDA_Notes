@@ -1,0 +1,1 @@
+[Verilog 数字系统设计教程](https://book.douban.com/subject/30552119/)

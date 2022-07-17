@@ -18,6 +18,10 @@
 * VLSI CAD
   * [Reference](./docs/VLSI_CAD/reference.md)
 
+* Verilog
+  * [绪论](./docs/Verilog/introduction.md)
+  * [Reference](./docs/Verilog/reference.md)
+
 * 语言和工具
   * Verilog
   * Tcl Tk
